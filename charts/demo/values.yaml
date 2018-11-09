@@ -5,8 +5,8 @@ app:
   apm: {}
   #    name: newrelic
   #    image:
-  #      repository: newrelic-agent-java
-  #      tag: 4.2.0
+  #      repository: 10.11.240.41:5000/joann-brereton-gmail-com/demo
+  #      tag: 0.0.8
   config:
     envKv:
       # springboot
@@ -25,8 +25,8 @@ app:
 
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.11.240.41:5000/joann-brereton-gmail-com/demo
+  tag: 0.0.8
   pullPolicy: IfNotPresent
 service:
   name: demo
